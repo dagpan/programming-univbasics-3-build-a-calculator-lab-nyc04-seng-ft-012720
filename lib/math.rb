@@ -14,11 +14,13 @@ def addition(num1 = 5, num2 = 4)
 end
 
 def subtraction(num1 = 10, num2 = 5)
-  
+  subt = num1 - num2
+  return subt
 end
 
 def division(num1 = 50, num2 = 2)
-  
+  div = num1 / num2
+  return div
 end
 
 def multiplication(num1 = 4, num2 = 30)
@@ -26,13 +28,13 @@ def multiplication(num1 = 4, num2 = 30)
   return product
 end
 
-def modulo(num1, num2)
+def modulo(num1 = 34, num2 = 5)
   remainder = num2 % num1
   return remainder
 end
 
-def square_root(num)
-  returms Math.sqrt(num)
+def square_root(num = 81)
+  return Math.sqrt(num)
 end
 
 
