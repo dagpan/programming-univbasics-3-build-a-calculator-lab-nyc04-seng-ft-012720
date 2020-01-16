@@ -17,11 +17,11 @@ def subtraction(num1 = 10, num2 = 5)
   
 end
 
-def division(num1, num2)
+def division(num1 = 50, num2 = 2)
   
 end
 
-def multiplication(num1, num2)
+def multiplication(num1 = 4, num2 = 30)
   product = num1 * num2
   return product
 end
