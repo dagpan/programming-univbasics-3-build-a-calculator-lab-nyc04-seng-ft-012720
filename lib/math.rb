@@ -29,7 +29,7 @@ def multiplication(num1 = 4, num2 = 30)
 end
 
 def modulo(num1 = 34, num2 = 5)
-  remainder = num2 % num1
+  remainder = num1 % num2
   return remainder
 end
 
